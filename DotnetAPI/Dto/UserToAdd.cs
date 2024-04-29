@@ -1,4 +1,4 @@
-namespace DotnetAPI
+namespace DotnetAPI.Dto
 {
     public partial class UserToAdd
     {

@@ -1,3 +1,6 @@
+using DotnetAPI.Data;
+using DotnetAPI.Dto;
+using DotnetAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DotnetAPI.Controllers;
