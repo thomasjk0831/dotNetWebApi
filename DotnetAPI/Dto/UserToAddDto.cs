@@ -1,6 +1,6 @@
 namespace DotnetAPI.Dto
 {
-    public partial class UserToAdd
+    public partial class UserToAddDto
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
@@ -8,7 +8,7 @@ namespace DotnetAPI.Dto
         public string Gender { get; set; }
         public bool Active { get; set; }
 
-        public UserToAdd()
+        public UserToAddDto()
         {
             if (FirstName == null)
             {
